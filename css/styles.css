@@ -1,0 +1,87 @@
+/* CSS Document */
+
+hr.default {
+	border-top: 1px solid aqua;
+}
+
+.header-buttons {
+		margin-left: 25px;
+		margin-bottom: -50px;
+		width: 200px;
+}
+
+.content {
+	background: rgba(0,0,0,0.5);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid aqua;
+	border-bottom: 1px solid aqua;
+}
+
+header #homeheader {
+	font-family: 'Poppins', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	margin: auto;
+}
+/* Logo placeholder*/
+#homelogo {
+	
+	margin-bottom: 10px;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+}
+
+#homelogo img {
+	width: 100%;
+	
+	border-bottom: solid thin aqua;
+}
+
+#facebook, #instagram, #linkedin {
+	font-size: 20px;
+	padding: 10px;
+	color: #090E19;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	background: #91D5E2;
+}
+
+#facebook:hover, #instagram:hover, #linkedin:hover {
+	background: white;
+}
+
+#facebook {
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+#store {
+	border-style: solid;
+	border-radius: 12px;
+	border-color: #F066A1;
+	padding: 15px 45px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: #91D5E2;
+}
+
+#mobile-logo {
+	display: none;
+}
+
+.footer {
+	background-color: #25253D;
+}
+
+.footer-buttons {
+	width: 200px;
+	margin: 30px auto;
+}
+
+.footer-buttons #facebook, #instagram, #linkedin {
+	margin-bottom: 30px;
+}
